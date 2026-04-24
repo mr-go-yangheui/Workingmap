@@ -15,7 +15,7 @@ app = FastAPI(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],   # 배포 시 프론트엔드 URL로 제한
+    allow_origins=["https://mr-go-yangheui.github.io"],   # 배포 시 프론트엔드 URL로 제한
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
